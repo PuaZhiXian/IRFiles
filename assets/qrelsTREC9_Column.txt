@@ -1,0 +1,8 @@
+The format of a qrels file is as follows:
+
+TOPIC      ITERATION      DOCUMENT#      RELEVANCY
+
+where TOPIC is the topic number,
+ITERATION is the feedback iteration (almost always zero and not used),
+DOCUMENT# is the official document number that corresponds to the "docno" field in the documents, and
+RELEVANCY is a binary code of 0 for not relevant and 1 for relevant.
